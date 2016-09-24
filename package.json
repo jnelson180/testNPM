@@ -3,12 +3,18 @@
   "version": "1.0.0",
   "description": "Test npm project",
   "main": "index.js",
+  "repository": 
+    "https://github.com/jnelson180/testNPM/",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "keywords": [
     "test"
   ],
   "author": "Jake Nelson",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  }
+  
 }
